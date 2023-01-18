@@ -16,7 +16,44 @@
             </nav>
         </header>
         <main>
-
+            <section>
+                <form action="index.hmtl">
+                    <p>
+                        <label>Name: </label><input type="text" name="Name" placeholder="Ex: Maria Da Silva"/>
+                    </p>
+                    <p>
+                        <label>E-mail: </label><input type="text" name="Email" placeholder="Ex: seunome@gmail.com"/>
+                    </p>
+                    <p>
+                        <label>Comment: </label>
+                        <textarea name="Comment" rows="4" cols="50" placeholder="Description..."></textarea>
+                    </p>
+                    <p>
+                        <label>Sex: </label>
+                        <input type="radio" name="Sex"/> <label>Female</label>
+                        <input type="radio" name="Sex"/> <label>Male</label>
+                        <input type="radio" name="Sex"/> <label>Non binary</label>
+                    </p>
+                    <p>
+                        <label>Where did you meet us?</label>
+                        <select name="Met">
+                            <option selected>Google</option>
+                            <option>Youtube</option>
+                            <option>Friends</option>
+                            <option>Others</option>
+                        </select>
+                    </p>
+                    <!-- Talvez seja necessário a adição de mais checkboxs -->
+                    <p>
+                        <input type="checkbox" name="News" value="Accept"/>
+                        <label>I agree to receive news emails</label>
+                    </p>
+                    <p>
+                        <input type="submit" name="Send" value="Send"/>
+                        <input type="reset" name="clear" value="Clear"/>
+                    </p>
+                </form>
+            </section>
         </main>
         <footer>
             <section>
