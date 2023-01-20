@@ -1,0 +1,14 @@
+/* Estilos globais das páginas */
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #000f5f;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+
