@@ -1,5 +1,42 @@
 /* Estilos da página index.hmtl */
 
 .cover-main figure img{
-    width: 80%;
+    width: 100%;
+}
+
+h3.title {
+    font-size: 1.2em;
+}
+
+h2.title {
+    font-size: 1.5em;
+}
+
+main section abbr {
+    color: #1E90FF;
+    text-decoration: underline;
+}
+
+.cover-main figure figcaption{
+    text-decoration-line: underline;
+    color: #1E90FF;
+    padding-right: 50%;
+}
+
+@media screen and (min-width: 992px) {
+    .cover-main {
+        width: 40%;
+    }
+
+    .cover-main, .section-youtube {
+        display: inline-block;
+    }
+
+    .section-blockquote blockquote{
+        width: 70%;
+        text-align: left;
+        margin: auto;
+        padding-right: 110px;
+        margin-bottom: 25px;
+    }
 }
