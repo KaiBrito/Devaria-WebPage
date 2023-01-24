@@ -19,8 +19,6 @@ main section abbr {
 
 .cover-main figure figcaption{
     text-decoration-line: underline;
-    color: #1E90FF;
-    padding-right: 50%;
 }
 
 @media screen and (min-width: 992px) {
@@ -30,6 +28,11 @@ main section abbr {
 
     .cover-main, .section-youtube {
         display: inline-block;
+    }
+
+    .section-youtube div iframe {
+        width: 430px;
+        height: 250px;
     }
 
     .section-blockquote blockquote{
