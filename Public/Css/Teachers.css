@@ -1,2 +1,45 @@
 /* Estilos da página teachers */
 
+.ranking {
+    margin: 25px 6px;
+}
+
+.ranking iframe{
+    width: 100%;
+    height: 400px;
+}
+
+.content-container {
+    padding: 20px;
+}
+
+.content-container h2.title {
+    font-size: 1.5em;
+}
+
+.content-container > div img {
+    width: 98%;
+    border-radius: 20px;
+    border: 5px double;
+}
+
+@media screen and (min-width: 992px) {
+    .content-container article p {
+        margin: 0 auto 10px;
+    }
+
+    .content-container {
+        display: inline-block;
+        width: 40%;
+        padding: 52px;
+    }
+
+    .ranking {
+        margin: 40px 25%;
+    }
+
+    .ranking iframe {
+        height: 500px;
+        width: 600px;
+    }
+}
