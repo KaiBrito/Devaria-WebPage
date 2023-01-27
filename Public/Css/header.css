@@ -25,11 +25,6 @@ header nav ul li {
     margin-right: 15px;
 }
 
-.menu li a:hover {
-    color: #fff;
-    text-decoration: underline;
-}
-
 @media screen and (min-width: 992px) {
     header {
         position: relative;
@@ -44,11 +39,23 @@ header nav ul li {
     .menu li {
         font-size: 16px;
         font-weight: 600;
-        color: rgb(156, 242, 127);
+        color: blue;
         padding: 8px 24px;
-        border-radius: 8px;
-        border: 1px solid rgb(156, 242, 127);
+        border-radius: 10px;
+        border: 2px solid #0000FF;
         justify-content: center;
         margin-left: 16px;
+    }
+
+    .menu li:hover {
+        background-color: red;
+    }
+
+    .menu li a {
+        color: red;
+    }
+
+    .menu li a:hover {
+        color: black;
     }
 }
