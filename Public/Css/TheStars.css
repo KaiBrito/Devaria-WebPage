@@ -7,3 +7,36 @@ h2.title {
 h3.title {
     font-size: 1.2em;
 }
+
+table, td, th {
+    border: 2px solid #00FF7F;
+    border-collapse: collapse;
+    padding: 5px 2px;
+}
+
+table {
+    width: 100%;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: #7B68EE;
+    color: #000;
+}
+
+@media screen and (min-width: 992px) {
+    main {
+        width: 60%;
+        border: 1px solid #BA55D3;
+        border-radius: 20px;
+        padding: 25px;
+        margin: 25px auto;
+    }
+
+    td:hover {
+        background-color: #8A2BE2;
+    }
+}
